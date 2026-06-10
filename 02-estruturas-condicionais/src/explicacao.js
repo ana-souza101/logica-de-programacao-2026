@@ -85,8 +85,8 @@ if( num % 2 === 0){
 //=============================================================================
 
 //SWITCH CASE
-/* 
-var cor = "verde"
+
+/* var cor = leia.question(" Digite uma cor: ")
 
 switch(cor.toUpperCase()){
     case "VERMELHO":
@@ -101,7 +101,15 @@ switch(cor.toUpperCase()){
 
     default:
         console.log("COR INVÁLIDA!")
-}  */
+}   */
 
 //========================================================================
 
+// OPERADOR TERNÁRIO
+
+//(CONDIÇÃO) ? "ALGO ACONTECEU" : "OUTRA COISA ACONTECE";
+
+/* var idade = leia.questionInt("Digite sua idade: ")
+var eMaior = (idade >=18 ? "MAIOR DE IDADE" : "MENOR DE IDADE");
+
+console.log(eMaior) */
