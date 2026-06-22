@@ -18,6 +18,6 @@ if( media > 7 && freqPor > 75){
 } else {
     console.log(" O aluno esta reprovado!")
     console.log(" A media do aluno e: " + media)
-    console.log(" A frequencia do aluno e: " + freqPor +"%")
+    console.log(" A frequencia do aluno e: " + freqPor +"%")                                                                                            
 }
 
