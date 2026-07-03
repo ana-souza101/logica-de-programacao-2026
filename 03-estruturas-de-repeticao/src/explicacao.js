@@ -41,21 +41,47 @@ if (tentativas > 0) {
 
 
 var somaNotas = 0;
-var quantidade = 5;
+var quantidade = 6;
 var contador = 1;
 
-while( contador <= quantidade){
-    var nota = leia.questionFloat(" Digite a nota " + contador );
+/* while( contador <= quantidade){
+    var nota = leia.questionFloat(" Digite a nota " + contador + ": ");   // melhor com valor boolean
     somaNotas = somaNotas + nota;
     contador++
-}
+} */
 
-var media = somaNotas / quantidade;
-console.log(" Média:" + media.toFixed(2))
 
-somaNotas= 0;
+/* somaNotas= 0;
 for(var i = 1; i <= quantidade; i++){
-    var nota = leia.questionFloat(" Digite a nota" + i);
+    var nota = leia.questionFloat(" Digite a nota" + i);  // melhor com listas ou numeros
     somaNotas = somaNotas + nota;
     i++
-}
+} */
+
+
+/* var finalNota = false;
+while(finalNota === false){     // ou, !finalNota, pra compara com false, ou, finalNota, pra comparar com true
+    var nota = leia.questionFloat(" Digite a nota " + contador + ": ");
+    somaNotas = somaNotas + nota;
+
+    if(contador === quantidade){         // muda o valor bo pra encerrar
+        finalNota = true;
+    }
+
+    contador++
+
+} */
+
+
+do{
+
+    var nota = leia.questionFloat(" Digite a nota " + contador + ": "); 
+    somaNotas = somaNotas + nota;
+    contador++
+
+
+}while(contador<=quantidade);
+
+
+var media = somaNotas / quantidade;
+console.log(" Média:" + media.toFixed(2)) 
