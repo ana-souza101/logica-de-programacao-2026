@@ -7,7 +7,7 @@ var quantTent = 0;
 
 console.log("======== JOGO NUMERO MAGICO =========");
 
-var escolha = leia.keyInSelect(["PvE", "PvP"], "Escolha a opcao que deseja jogar:") +1;
+var escolha = leia.keyInSelect(["PvP", "PvE"], "Escolha a opcao que deseja jogar:") +1;
 
 if (escolha == -1) {
     console.log("Jogo cancelado.");
