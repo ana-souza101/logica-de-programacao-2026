@@ -1,4 +1,4 @@
-import leia from 'readline-sync';
+ import leia from 'readline-sync';
 
 /* Crie um algoritmo que receba um número e que ele mostre os números da sequência
 fibonacci. (Exemplo, se o usuário digitar 5, deve ser mostrado até o 5 número da sequência
