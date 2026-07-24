@@ -4,6 +4,10 @@ import {exercicio3} from './ex3.js';
 import { exercicio2 } from './ex2.js';
 import { exercicio4 } from './ex4.js';
 import { exercicio5 } from './ex5.js';
+import { exercicio6 } from './ex6.js';
+import { exercicio7 } from './ex7.js';
+import { exercicio8 } from './ex8.js';
+import { exercicio9 } from './ex9.js';
 
 console.log("======== MENU DE EXERCICIOS ========");
 
@@ -38,6 +42,18 @@ switch(opcao){
         break;
     case 5:
         exercicio5();
+        break;
+    case 6:
+        exercicio6();
+        break;
+    case 7:
+        exercicio7();
+        break;
+    case 8:
+        exercicio8();
+        break;
+    case 9:
+        exercicio9();
         break;
 }
 
